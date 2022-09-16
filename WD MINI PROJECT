@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Mini project by Gargi Gundawar</title>
+    <style>
+        #a{grid-area:A;}
+        #b{grid-area:B;}
+        #c{grid-area:C;}
+        #d{grid-area:D;}
+        #e{grid-area:E;}
+        #f{grid-area:F;}
+        
+        
+        /* flex box -> either row or a column */ 
+        #maindiv{
+            display:grid;
+            grid-template-areas:
+            "A A A B B B C C C"
+            "D D D E E E F F F";
+            grid-template-rows:500px 500px 500px;
+            background-image:linear-gradient(120deg,orange,white,green);
+            align-items: center;
+            text-align: center;
+            position:fixed
+            
+
+        }
+        #maindiv >div{
+            background-image:linear-gradient(120deg,orange,white,green);
+            margin:150px;
+            border-radius: 20px;
+            
+            font-family:fantasy;
+            font: size 30px;
+            padding: 20px;
+            text-align:center;
+            width:max-content;
+            align-items: center;
+            position:static;
+                        
+
+        }
+        
+        #Header{
+            top:0px;
+            position:fixed;
+            left:0px;
+            width:100%;
+            background-color:darkorange;
+            color:#000080;
+            height:70px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            text-align:center;
+            font-size:60px;
+
+        }
+        body{
+            padding-top:100px;
+        }
+        #Footer{
+            bottom:0px;
+            position:fixed;
+            left:0px;
+            width:100%;
+            background-color:darkorange;
+            color:	#000080;
+            height:80px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            text-align:center;
+            font-size:60px;
+
+        }
+
+
+    </style>
+</head>
+<body><!--<br><br><br><br>-->
+    <!--grid box is a combination of rows and columns -->
+    <h1 id="Header" align="center">Historical Places Of INDIA</h1>
+
+    <div id="maindiv">
+        <div id="a"><a href="https://en.wikipedia.org/wiki/Taj_Mahal">
+            <img src="https://images.pexels.com/photos/5733079/pexels-photo-5733079.jpeg?auto=compress&cs=tinysrgb&w=500&lazy=load"><br>
+            <h7>Taj Mahal</h7>
+        
+        </a></div>
+        <div id="b"><a href="https://en.wikipedia.org/wiki/Qutb_Minar" target="Blank">
+            <img src="https://images.pexels.com/photos/3881110/pexels-photo-3881110.jpeg?auto=compress&cs=tinysrgb&w=500"><br>
+            <h7>Qutb Minar</h7>
+            
+        </a></div>
+        <div id="c"><a href="https://www.hawa-mahal.com/information-about-hawa-mahal/" target="blank">
+            <img src="https://images.pexels.com/photos/4476397/pexels-photo-4476397.jpeg?auto=compress&cs=tinysrgb&w=500&lazy=load"><br>
+            <h7>Hawa Mahal</h7>
+        </a></div>
+        <div id="d"><a href="https://en.wikipedia.org/wiki/India_Gate" target="blank">
+            <img src="https://images.pexels.com/photos/6472566/pexels-photo-6472566.jpeg?auto=compress&cs=tinysrgb&w=500"><br>
+            <h7>India Gate</h7>
+        </a></div>
+        <div id="e"><a href="https://en.wikipedia.org/wiki/Jal_Mahal#:~:text=Jal%20Mahal%20(meaning%20%22Water%20Palace,Jai%20Singh%20II%20of%20Amber." target="blank">
+            <img src="https://images.pexels.com/photos/11750470/pexels-photo-11750470.jpeg?auto=compress&cs=tinysrgb&w=500"><br>
+            <h7>Jal Mahal</h7>
+        </a></div>
+        <div id="f"><a href="https://en.wikipedia.org/wiki/Lotus_Temple#:~:text=The%20Lotus%20Temple%2C%20located%20in,religion%20or%20any%20other%20qualification." target="_blank">
+            <img src="https://images.pexels.com/photos/4204698/pexels-photo-4204698.jpeg?auto=compress&cs=tinysrgb&w=500"><br>
+            <h7>Lotus Temple</h7>
+        </a></div>
+    
+
+    </div>
+    <div align="center">
+        <audio controls>
+            <source src="https://pagalworldl.com/files/download/id/421">
+        </audio>
+    </div>
+    
+        <h4 id="Footer" align="right"> Thank you!<br>(Designed by:-Gargi Gundawar)</h4>
+        
+    
+</body>
+</html>
